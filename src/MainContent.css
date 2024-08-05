@@ -1,0 +1,8 @@
+#homepage-image{
+    background-image: url(../images/background.jpg);
+      background-repeat:no-repeat;
+      background-size:cover;
+      background-color:#000000;
+      background-position: center;
+      width:100%;
+  }
