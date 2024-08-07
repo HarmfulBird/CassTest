@@ -1,12 +1,11 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  
+  font-family: "Baumans", system-ui;
 }
 
 h1{
-  font-size: 3em;
+  font-size: 3rem;
   text-align: center;
   color: #DC143C;
 }
@@ -15,35 +14,124 @@ h2 {
   text-align: center;
 }
 
-h4{
-  font-size: 3.5em;
-  text-align: center;
-  margin-top: 1em;
+h3{
+  font-size: 2rem;
+}
+
+p{
+  font-size: 1rem;
 }
 
 .heading{
-  margin-top: 7em;
+  margin-top: 3rem;
 }
 
 .classified{
-  margin-top: 10em;
+  margin-top: 10rem;
 }
 
 .warning{
-  margin-top: 10em;
-  margin-bottom: 10em;
+  margin-top: 20rem;
+  margin-bottom: 10rem;
+  padding: 3rem;
+}
+
+.Homepage{
+  width:50vw;
+}
+
+.logo {
+  width:5rem;
+  margin: 1rem;
+
+}
+
+.Bottom{
+  margin: 0rem 1rem 0rem 0rem;
+  float:right;
 }
 
 .images{
   float:right;
-  
+  width:45%;
+  margin-left: 2rem;
 }
 
 footer{
-  margin-top: 10%;
+  margin: 6rem 0rem 2rem 2rem;
 }
 
-.logo {
-  width:5em;
-  margin-bottom: 2em;
+
+
+@media (max-width:940px){
+  h1{
+      font-size:2.7rem;
+  }
+  
+  h2{
+      font-size: 1.5rem;
+  }
+  
+  h3{
+      font-size:1.6rem;
+  }
+  
+  p{
+      font-size: 0.8rem;
+  }
+  .logo {
+    width: 10vw;
+  
+  }
 }
+
+@media (max-width:730px){
+  h1{
+      font-size:2rem;
+  }
+  
+  h2{
+      font-size: 1.2rem;
+  }
+  
+  h3{
+      font-size:1.3rem;
+  }
+  
+  p{
+      font-size: 0.7rem;
+  }
+  
+  .logo {
+    width: 11vw;
+  
+  }
+  
+}
+
+@media (max-width:530px){
+  h1{
+      font-size:2.1rem;
+  }
+  
+  h2{
+      font-size: 1.2rem;
+  }
+  
+  h3{
+      font-size: 1.3rem;
+  }
+  
+  
+  p{
+      font-size: 0.8rem;
+  }
+  
+  .logo {
+    width: 14vw;
+  
+  }
+
+}
+
+

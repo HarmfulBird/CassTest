@@ -3,7 +3,7 @@ function Footer()
 {
     return(
         <footer>
-            <img src={logo} className="logo" alt="Logo"/>
+            <img src={logo} className="logo Bottom" alt="Logo"/>
             <p>&copy; SCP Foundation</p>
         </footer>
     );

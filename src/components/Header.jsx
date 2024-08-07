@@ -2,12 +2,13 @@ function Header()
 {
     return(
         <header>
-            <h4>SCP Foundation</h4>
-
             <div className="heading">
                 <h1 >Scp Classified:</h1>
                 <h2>Classified reports from the scp Foundation</h2>
             </div>
+            
+            <img src="../images/Hompage_img.png" className="Homepage" alt="Hompage_image"/>
+
 
             <div className="classified">
                 <h2>THE FOLLOWING FILES HAVE BEEN CLASSIFIED</h2>
