@@ -1,4 +1,4 @@
-[
+export const scps = [
 {   
     "Image": "SCP002.jpg",
     "Subject": "SCP-002",
@@ -34,4 +34,4 @@
     "Description": "SCP-006, also known as 'Fountain of Youth', is an anomalous substance within the SCP Foundation universe. It appears as a clear, viscous liquid with potent regenerative properties. When applied to living organisms, SCP-006 can significantly reverse the aging process, promoting rapid cellular regeneration and extending the subject's lifespan.",
     "Containment": "SCP-006 requires secrecy rather than extensive containment. Personnel interacting with it must wear specific suits, undergo briefings, and be submerged to check for leaks. Procedures must be heavily monitored, with a code indicating high toxicity for evacuation. Liquid acquisition requires O5 approval and strict handling. Contact with SCP-006 leads to personnel termination via incineration after studies."
 }
-]
+];

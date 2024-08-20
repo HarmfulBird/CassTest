@@ -1,7 +1,9 @@
 function Header()
 {
     return(
+
         <header>
+
             <div className="heading">
                 <h1 >Scp Classified:</h1>
                 <h2>Classified reports from the scp Foundation</h2>
